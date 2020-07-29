@@ -1,37 +1,18 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const axios = require("axios");
+const path = require("path");
+const writeFileAsync = util.promisify(fs.writeFile);
 
+inquirer
 
-// array of questions for user
-inquirer 
-    .prompt([
-        {
-        type: "input",
-        message: "What is your github?",
-        name: "github"
-        },
-        {
-        type: "input",
-        message: "What's your project title?",
-        name: "title"
-        }, 
-        {
-        type: "input",
-        message: "Please enter a description of your project.",
-        name: "description"
-        },
-
-]);
-
-// function to write README file
-fs.writeToFile("README", document, function(err) {
-    
-});
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+  .prompt (
+      {
+          type: "input",
+          message: "Enter Your Github username:",
+          name: "username"
+      }
+  )
+  .then(function({ username }) {
+    const queryUrl = `https://api.github.com/users/${username}`;
+  }
