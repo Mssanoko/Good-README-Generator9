@@ -1,10 +1,9 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
+const writeFileAsync = util.promisify(fs.writeFile);
 
-inquirer
-
-  .prompt (
+inquirer.prompt (
       {
           type: "input",
           message: "Enter Your Github username:",
@@ -15,7 +14,13 @@ inquirer
     const queryUrl = `https://api.github.com/users/${username}`;
 
     axios.get(queryUrl).then(function(res) {
-
+        console.log(res.data);
+        const doc = `username:` + res.data.login + `\n` + `email:` + res.data.email + `\n` + `![Avatar](`+ res.data.avatar_url +`)` + `\n`;
+        fs.writeFile("readMe.md", doc, function(err) {
+            if (err) {
+              throw err;
+            } 
+        });
     })
   })
   .then(function(){
@@ -40,9 +45,7 @@ inquirer
                         "BSD 3", 
                         "BSD 2", 
                         "APACHE 2.0", 
-                        "None"
-                    ]
+                        "None"]
         },
-
       ])
   })
