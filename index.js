@@ -1,9 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const axios = require("axios");
-const path = require("path");
-const { type } = require("os");
-const writeFileAsync = util.promisify(fs.writeFile);
 
 inquirer
 
@@ -30,9 +27,22 @@ inquirer
           },
           {
               type:"input",
-              message:"Descripte your project",
+              message:"Describe your project",
               name:"describe"
           },
+          {
+            type: "list",
+            name: "project_license",
+            message: "What kind of license applies to your project?",
+            choices: [  "MIT", 
+                        "LGPL",
+                        "GPL", 
+                        "BSD 3", 
+                        "BSD 2", 
+                        "APACHE 2.0", 
+                        "None"
+                    ]
+        },
 
       ])
   })
