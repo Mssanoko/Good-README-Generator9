@@ -45,6 +45,4 @@ Manual test on the command line
 
 ## Questions <a name="questions"></a>
 Message me for any questions
-
-file:///Users/mainaccount/Desktop/Workspace/Homeworks/Good-README-Generator9/Untitled_%20Jul%2031,%202020%2011_31%20PM.webm
         
