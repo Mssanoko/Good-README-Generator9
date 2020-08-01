@@ -4,7 +4,7 @@
 [![Generic badge](https://img.shields.io/badge/Version-undefined-blue.svg)](https://shields.io/)
 
 #### __Author:__ mssanoko
-#### __Email:__ No Email Listed
+#### __Email:__ lawsonjleslie@gmail.com
 ![mssanoko Avatar](https://avatars2.githubusercontent.com/u/61078512?v=4)
 
 ## Table Of Contents
