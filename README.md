@@ -1,5 +1,5 @@
 
-# readme generator <a name="introduction"></a>
+# ReadMeGenerator <a name="introduction"></a>
 
 [![Generic badge](https://img.shields.io/badge/Version-undefined-blue.svg)](https://shields.io/)
 
@@ -18,23 +18,23 @@
 7) [Questions](#questions)
 
 ## Description <a name="description"></a>
-create a good read me file 
+This project will create a README.md file
 
 ## Installation <a name="installation"></a>
-git clone then npm install 
+You can install this project by cloning the repository. 
 
 ## Usage <a name="usage"></a>
-by cloning my repository 
+You can run by changing directory to the one you cloned. 
 
 ## License <a name="license"></a>
-no license
+No license
 
 ## Contributing <a name="contributing"></a>
-by cloning and changing with his informations
+By cloning the repository and change anything you want 
 
 ## Tests <a name="tests"></a>
-manuals on the command line 
+Manual test on the command line 
 
 ## Questions <a name="questions"></a>
-message me 
+Message me for any questions
         
