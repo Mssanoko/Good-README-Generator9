@@ -1,7 +1,7 @@
 
 # ReadMEGenerator <a name="introduction"></a>
 
-[![Generic badge](https://img.shields.io/badge/Version-undefined-blue.svg)](https://shields.io/)
+![NPM](https://img.shields.io/npm/l/sta)
 
 #### __Author:__ Mssanoko
 #### __Email:__ lesliejlawson@gmail.com
