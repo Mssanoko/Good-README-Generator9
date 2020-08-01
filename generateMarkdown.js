@@ -44,7 +44,7 @@ ${data.questions}
         `;
       }
     catch(err) {
-      console.log("Could not build the file:");
+      console.log("Can not build the file:");
       console.log(err);
       return null;
     }
