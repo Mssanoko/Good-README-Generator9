@@ -4,7 +4,7 @@
 ![NPM](https://img.shields.io/npm/l/sta)
 
 #### __Author:__ Mssanoko
-#### __Email:__ lesliejlawson@gmail.com
+#### __Email:__ lawsonjleslie@gmail.com
 ![Mssanoko Avatar](https://avatars2.githubusercontent.com/u/61078512?v=4)
 
 ## Table Of Contents
